@@ -1,0 +1,27 @@
+.navbar{
+	box-shadow: 2px 2px 5px #000;
+	opacity: .9;
+}
+
+.navbar .nav-item .nav-link{
+	color: #000;
+}
+
+
+body{
+	background: url(../img/ControlPaper.jpg);
+	background-size: cover;
+}
+
+body:before{
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: rgba(52, 152, 219,.8);
+	opacity: 0.7;
+	z-index: -1;
+}
